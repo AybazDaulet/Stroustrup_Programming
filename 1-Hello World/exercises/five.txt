@@ -1,0 +1,22 @@
+// is a sign of comments
+function is a block of code that has expressions
+output is whatever comes out of input being given into a function
+compiler takes source code as input and outputs object code
+error is that which stops program from achieving its goal
+linker links object codes into an exectuble file 
+command line is a line accessible from computer terminal and shell where you can issue commands to use your computer
+executable is the output of a linker and is usually a platform specific file to run a program
+object code is source code translated by compiler to machine code 
+comment is text that is ignored by compiler but which programmers leave in source code for improving readability and making notes for the program
+import is used to access a library
+library is code that can accessed from other programs
+module is code that can imported in other files
+bug is that which causes errors
+main() is the primary function of a c++ program that is executed by computer
+C++ is a programming langauge
+IDE is a programming environment that includes tools necessary to write programs
+source code is text written in a programming language by a programmer
+statement is the basic unit controlling the execution flow of a function
+#include is a way to access external libraries and modules
+debugging is a process of removing bugs from a program
+<< is an output operator

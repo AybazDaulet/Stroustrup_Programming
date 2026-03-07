@@ -1,0 +1,23 @@
+1. Asking for information from a user
+2. >>
+3. int, char, double, auto, etc.
+4. 
+	cout << "Enter an integer value: ";
+	cin >> number;
+5. \n is called line feed - new line and its purpose is enter a new line.
+6. >>
+7. >>
+8. 
+	cout << "Hello, " << first_name << "!\n";
+9. An object is some memory that holds a value of a given type
+10. Value that can be assigned to a varialbe.
+11. integer, character, boolean, double, string
+12. A variable is a named object with a specific type.
+13. a char is an 8-bit byte and int is 4 bytes and dobule is 8 bytes
+14. Bytes
+15. = is assignment operator and == is equals operator 
+16. The declarations that define all properties required to use an entity are definitions. 
+17. Initialization of a variable provides its initial value at the time of construction. Assignment is modification of the value of the object.
+18. Adding strings together. You make it work in c++ by += operator.
+19. 
+20. 
