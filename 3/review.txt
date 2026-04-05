@@ -1,0 +1,35 @@
+1-2. A computation is the act of producing some outputs based on some inputs, such as producing the result (output) 49 from the argument (input) 7 using the computation (function) square.  
+3. Our job as programmers is to express computations 
+  - correctly
+  - simply
+  - efficiently
+4. An expression computes a value from a number of operands
+5. We use statements when we want to produce several values, do something many times, choose among alternatives, get input or produce output. 
+6. lvalue is a value that can appear on the left-hand side of an assignment. 
+  Operators that require an lvalue are lval=a, ++lval, --lval, lval*=a. 
+  The assignment operators require the left operand to be and lvalue. In increment and decrement operators operands must be modifiable lvalues.
+7. A constant expression is a named object to which you can't give a new value after it has been initialized. 
+8. A literal is a value that can be used to initialize a variable like an integer, character, boolean, float, string.
+9. A symbolic constant is a named object to which you can't give a new value after it has been initialized. Such constants are useful for keeping code readable. 
+10. A magic constant is a non-obvious literal in code, such as 299792458 which is the speed of light in vacuum measured in meters per second. 
+11. Assignment, addition, subtraction, multiplication, division, remainder, increment by 1, decrement by 1, increment by n, decrement by n, multiply and assign, divide and assign, remainder and assign, read from s into x, write x to s, equals, not equals, greater than, greater than or equal, less than, less than or equal.
+12. Remainder, remainder and assign.
+13. Assignment, concatenation, add to end.
+14. When we compare against many constants.
+15. The most common error/problem with switch-statements is to forget to terminate a case with a break. 
+16. The for-statement initializer, the for-statement condition, the for-statement body, the for-statement increment.
+17. Using a for-statement yields more easily understood and more maintainable code whenever a loop can be defined as a for-statement with a simple initializer, condition, and increment operation. Use a while-statement only when that's not the case. 
+18. Take an int argument and return a char. 
+19. Programs are usually easier to write and to understand if each function performs a single logical action. 
+20. Addition, subtraction, multiplication, division, remainder.
+21. Concatenation, add to end.
+22. 2
+23. 
+for (int i = 0; i<v.size(); ++i) {
+    cout << v[i] << '\n';
+  }
+24. vector<char> alphabet(26) does vector of 26 chars initialized to ''.
+25. push_back() adds a new element to a vector. The new element becomes the last element of the vector.
+26. It gives the number of elements of the vector.
+27. A vector is is one of the simplest, and arguably the most useful, ways of storing data.
+28. We use a variant of the standard-library sort algorithm, sort().
