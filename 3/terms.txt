@@ -1,0 +1,57 @@
+An abstraction means hiding details that we don't need to use a facility behind a convenient and general interface.
+
+A function is a named sequence of statements.
+
+An rvalue is an operand used on the right-hand side of an assignment or initialization.
+
+A declaration is a statement that gives a name and a type to an object.
+
+Iteration is doing the same thing to a series of objects.
+
+Statement is producing several values, doing something many times, choosing among alternatives, getting input or producing output.
+
+While-statement are an iteration technique. 
+
+Outputs are results of programs.
+
+A range-for-statement is a simple loop over all the elements of a sequence. 
+
+Repetition in programming is called iteration.
+
+A conditional statement is an if-statement or a switch-statement.
+
+An input is an argument of a program.
+
+sort() is a variant of the standard-library sort algorithm.
+
+else is second part of an if-statement.
+
+A member function is a function of an object that must be called using dot notation.
+
+push_back() is a member function of vector, which adds a new element to a vector.
+
+Computation is the act of producing some outputs based on some inputs.
+
+Incrementing is adding 1 to a variable
+
+size() is a member function of vector that gives the number of elements of a vector.
+
+Divide-and-conquer is taking a large problem and dividing it into several little ones.
+
+lvalue is a value that can appear on the left-hand side of an assignment.
+
+A vector is a sequence of elements that you can access by an index.
+
+A for-statement is like a while-statement except that the management of the control variable is concentrated at the top where it is easy to see and understand.
+
+An if-statement is the simplest form of selection between two alternatives.
+
+Selection is an act of selecting among alternatives.
+
+A definition is a declaration that sets aside memory for an object.
+
+A loop is a way of doing something several times.
+
+A switch-statement is a selection based on comparison of a value against several constants.
+
+Expressions are the most basic building blocks of programs.
