@@ -8,13 +8,13 @@ void f(int *a, int n) {
     std::cout << *p << ' ';
   }
   std::cout << '\n';
-  int fa[n];
-  int i = 0;
-  for (int *p = &fa[0]; p < &fa[n]; ++p) {
-    *p = a[i];
-    i++;
-    std::cout << *p << ' ';
+
+  int *p = new int[n];
+  for (int i = 0; i < n; i++) {
+    p[i] = a[i];
+    std::cout << p[i] << ' ';
   }
+  delete[] p;
 }
 
 int main(int argc, char *argv[]) {
@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
     *p = value;
     value *= 3;
   }
-
-  f(aa, 7);
+  int *pa = &aa[0];
+  f(pa, 7);
   return 0;
 }
