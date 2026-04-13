@@ -1,37 +1,35 @@
+#include <cstddef>
 #include <iostream>
-void f(int *a, int n) {
-  int la[10];
-  int value = 1;
-  for (int *p = &la[0]; p < &la[10]; ++p) {
-    *p = value;
-    value *= 2;
-    std::cout << *p << ' ';
-  }
-  std::cout << '\n';
+int ga[10]{1, 2, 4, 8, 16, 32, 64, 128, 256, 512};
 
+void f(int a[], int n) {
+  int la[10];
+  for (int i = 0; i < 10; i++) {
+    la[i] = ga[i];
+    std::cout << la[i] << ' ';
+  }
   int *p = new int[n];
+  std::cout << '\n';
   for (int i = 0; i < n; i++) {
     p[i] = a[i];
     std::cout << p[i] << ' ';
   }
+  std::cout << '\n';
   delete[] p;
+  p = nullptr;
 }
-
 int main(int argc, char *argv[]) {
-  int ga[10];
-  int value = 1;
-  for (int *p = &ga[0]; p < &ga[10]; ++p) {
-    *p = value;
-    value *= 2;
-  }
-
-  int aa[7];
-  value = 1;
-  for (int *p = &aa[0]; p < &aa[7]; ++p) {
-    *p = value;
-    value *= 3;
-  }
-  int *pa = &aa[0];
-  f(pa, 7);
+  f(ga, 10);
+  int aa[10]{1,
+             2 * 1,
+             3 * 2 * 1,
+             4 * 3 * 2 * 1,
+             5 * 4 * 3 * 2 * 1,
+             6 * 5 * 4 * 3 * 2 * 1,
+             7 * 6 * 5 * 4 * 3 * 2 * 1,
+             8 * 7 * 6 * 5 * 4 * 3 * 2 * 1,
+             9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1,
+             10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1};
+  f(aa, 10);
   return 0;
 }
